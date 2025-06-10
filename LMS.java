@@ -14,6 +14,7 @@ public class LMS {
      System.out.println("enrolled course is :"+enrolldCourse);
      System.out.println("course fees is :"+courseFees);
         System.out.println("==========================================================");
+    System.out.println();
     }
     public static void CoursesEntity(){
         int courseId=12345;
@@ -30,7 +31,7 @@ public class LMS {
      System.out.println("enrolled course trainer id is :"+trainerId);
      System.out.println("Number of students is :"+NoofStudents);
      System.out.println("==========================================================");
-
+     System.out.println();
     }
     public static void TrainerEntity(){
         int trainerId=1234;
