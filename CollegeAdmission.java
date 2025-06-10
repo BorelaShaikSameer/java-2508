@@ -23,7 +23,8 @@ public class CollegeAdmission {
     System.out.println("cobtact number of the student :"+phoneNumber);
     System.out.println("Name of the spouse :"+nameofSpouse);
      System.out.println("========================================================================================");
-   } 
+   System.out.println();
+    } 
    public static void FatherDetails(){
     String name="ChandBasha";
     String occupation="Bussiness";
@@ -34,13 +35,13 @@ public class CollegeAdmission {
     System.out.println("name of the father :"+name);
    System.out.println("occupation of the Father :"+occupation);
    System.out.println("Contact number of father :"+ContactNumber);
+   System.out.println();
    }
    public static void highschooldetails(){
     String SchoolNAme="Nation collegee NAndyal";
     int yearofpassout=2021;
     float f=56.1f;
     String Course="MPC";
-    System.out.println("========================================================================================");
     System.out.println("details of schooling ");
     System.out.println("SchoolNAme is :"+SchoolNAme);
     System.out.println("year of passout :"+yearofpassout);
