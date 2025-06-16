@@ -42,7 +42,8 @@ public class CollegeAdmission {
     int yearofpassout=2021;
     float f=56.1f;
     String Course="MPC";
-    System.out.println("details of schooling ");
+ 
+    System.out.println("details of schooling");
     System.out.println("SchoolNAme is :"+SchoolNAme);
     System.out.println("year of passout :"+yearofpassout);
     System.out.println("percentage is :"+f);
