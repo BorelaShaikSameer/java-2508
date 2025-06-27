@@ -24,6 +24,7 @@ public class LMS5_clsObj_18 {
         Trainer t = new Trainer();
         t.setTrainerDetails(tName, experience, numberOfCourses);
 
+        // Course input
         System.out.println("Enter Course Details: Title, Trainer Name, Duration");
         String title = sc.nextLine();
         String trainerName = sc.nextLine();
@@ -32,6 +33,7 @@ public class LMS5_clsObj_18 {
         Course c = new Course();
         c.setCourseDetails(title, trainerName, duration);
 
+        // Display all
         System.out.println("\n--- Student Details ---");
         s.display();
         System.out.println("\n--- Trainer Details ---");
@@ -51,7 +53,6 @@ class Student {
         this.age = age;
         this.course = course;
     }
-
     public void display() {
         System.out.println("Name of the Student: " + name);
         System.out.println("Mobile no of Student: " + mobile);
