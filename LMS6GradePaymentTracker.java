@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import Student1.trainer;
-
 public class LMS6GradePaymentTracker {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
