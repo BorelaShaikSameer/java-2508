@@ -18,6 +18,7 @@ public class Student {
     int performanceCredits;
     int finalCredits;
     int trainerRatings;
+   int[] subjectScores;
 
     // Set constructor for Student -> empty object to assign rating for trainer
     public Student(){
@@ -73,12 +74,28 @@ public class Student {
             return attendanceCredits=0;  // 2nd
         }
     }
+    public  int calculaateAvgScores(){
+       int totalScores=0;
+       System.out.print("Enter the no of Subjects: ");
+       int subjects=sc.nextInt();
+
+       subjectScores=new int[subjects];
+       for(int i=0;i<subjects;i++){
+        System.out.print("Enter the marks for Subject: "+(i+1)+" ");   
+        subjectScores[i]=sc.nextInt();
+        totalScores+=subjectScores[i];
+       }
+       int avgscore=totalScores/subjects;
+       System.out.println("your avgscore is: "+avgscore);
+       return avgscore;
+    }
 
     // calculate performance credits based on score 
-    public int performanceScoreCredits(int score){
-        if (score>=85) {
+    public int performanceScoreCredits(){
+        int avgscore=calculaateAvgScores();
+        if (avgscore>=85) {
             return performanceCredits+=5;
-        } else if(score>=60){
+        } else if(avgscore>=60){
             return performanceCredits+=3;
         } else {
             return performanceCredits+=0;
