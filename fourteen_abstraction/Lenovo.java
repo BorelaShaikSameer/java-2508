@@ -1,8 +1,7 @@
 package fourteen_abstraction;
 
 public class Lenovo implements Laptop {
-
-    public void usbA() {
+public void usbA() {
        System.out.println("usbA has been added to laptop lenovo");
     }
 
@@ -13,6 +12,13 @@ public class Lenovo implements Laptop {
     public void usbC() {
       System.out.println("usbC has been added to laptop lenovo");
     }
+    public void oldDisplay(){
+      System.out.println("sameer");
+    }
+    public void sdcard(){
+     System.out.println("sameer");
+    }
+    
     
 
 }
