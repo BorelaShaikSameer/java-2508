@@ -1,5 +1,4 @@
 package fourteen_abstraction;
-
 public class User {
 public static void main(String[] args) {
 //abstraction achied
